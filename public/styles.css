@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.screen {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.first {
+  background-color: #1E5A74;
+}
+
+.first #header {
+  position: absolute;
+  top: 1%;
+  margin: 0;
+  width: 95vw;
+  height: 15vh;
+  background-color: #C4C4C4;
+  margin-left: 1.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first #header #image {
+  height: 14vh;
+  width: 14vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: .5vh;
+  background: #333333;
+}
+
+.first #header .head {
+  width: 7.5vw;
+  border-radius: 25px;
+  background-color: #1E5A74;
+  height: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  cursor: pointer;
+  line-height: 5vh;
+}
+
+.first #header .head:hover {
+  background-color: yellow;
+}
+
+.first #header .home {
+  margin-left: 45%;
+}
+
+.first #header .menu {
+  margin-left: 5%;
+}
+
+.first #header .contact {
+  margin-left: 5%;
+}
+
+.first #firstScreenBody {
+  position: absolute;
+  top: 25%;
+  width: 60vw;
+  margin-left: 20vw;
+  border-top: 2px dashed;
+  height: 60vh;
+  border-bottom: 2px dashed;
+  text-align: center;
+}
+
+.first #firstScreenBody .text {
+  font-weight: 100;
+}
+
+.first #firstScreenBody h1 {
+  font-size: xxx-large;
+  margin-bottom: 0;
+}
+
+.first #firstScreenBody h2 {
+  margin-top: 0;
+  margin-bottom: 20vh;
+}
+
+.first #firstScreenBody h3 {
+  margin: 0;
+}
+
+.first #firstScreenBody h4 {
+  margin: 7.5vh;
+}
+
+.second {
+  background-color: #EEEEEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second #image {
+  width: 32.5%;
+  margin-left: 2.5%;
+  margin-right: 15%;
+  background-color: #333333;
+  height: 50%;
+  margin-top: 20%;
+}
+
+.second .text {
+  font-weight: 100;
+}
+
+.second .title {
+  margin-top: 15vh;
+}
+
+.second h1 {
+  margin: 0;
+}
+
+.second .story {
+  margin-top: 10vh;
+}
+
+.third {
+  background-color: #33AB63;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.third .text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.third h1 {
+  margin: 0;
+}
+
+.third h3 {
+  width: 35%;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: larger;
+}
+
+.third h2 {
+  margin-top: 20vh;
+}
+
+.third button {
+  margin-top: 7.5vh;
+  width: 7.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: #5B1212;
+  color: #eeeeee;
+}
+
+.third button:hover {
+  background-color: #eeeeee;
+  color: #5B1212;
+}
+
+.third .bar {
+  position: absolute;
+  top: 18vh;
+  width: 35vw;
+  height: 4vh;
+  background: black;
+}
+
+.third .right {
+  left: 65vw;
+}
+
+.fourth {
+  background-color: #667AE3;
+}
+
+.fourth #menu {
+  height: 90vh;
+  width: 35vw;
+  background: #EEEEEE;
+  left: 32.5vw;
+  top: 8.5vh;
+  position: absolute;
+}
+
+.fourth .text {
+  text-align: center;
+}
+
+.fourth .title {
+  margin-top: -10%;
+}
+
+.fifth {
+  background-color: #333333;
+  position: relative;
+}
+
+.fifth .text {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+.fifth div.text {
+  position: absolute;
+  top: 5vh;
+  width: 20vw;
+  left: 40vw;
+  font-size: x-large;
+}
+
+.fifth #find {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+}
+
+.fifth #find #map {
+  height: 25vh;
+  width: 25vh;
+  background: black;
+}
+
+.fifth #touch {
+  position: absolute;
+  top: 40vh;
+  right: 10vw;
+}
+
+.fifth #touch h2 {
+  margin-bottom: 10vh;
+}
+
+.fifth #touch h3 {
+  margin: 0;
+}
+
+.fifth #footer {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  width: 100vw;
+  height: 5vh;
+  color: white;
+  line-height: 5vh;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
