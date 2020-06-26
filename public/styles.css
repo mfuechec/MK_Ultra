@@ -9,7 +9,7 @@
     position: relative;
   }
   .first {
-    background-color: #1E5A74;
+    background: linear-gradient(45deg, #1e5a74, transparent);
   }
   .first #header {
     position: absolute;
@@ -17,8 +17,7 @@
     margin: 0;
     width: 95vw;
     height: 15vh;
-    background-color: #C4C4C4;
-    margin-left: 1.5vw;
+    margin-left: 2.5vw;
     display: flex;
   }
   .first #header #image {
