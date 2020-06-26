@@ -1,9 +1,10 @@
 import * as React from "react";
+import sideImage from './trash.jpeg';
 
 export default function Second() {
   return (
     <div className="second screen">
-      <div id="image">Image</div>
+      <img id="image" src={sideImage}></img>
       <div id="textBox">
         <h1 className="text title">A Groundbreaking</h1>
         <h1 className="text">Concept</h1>
