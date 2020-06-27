@@ -9,6 +9,7 @@ export default function Menu() {
       <div className='text left wings'>* Teryaki</div>
       <div className='text left wings'>* Lemon Pepper</div>
       <div className='text left wings'>* Paprika Rubbed</div>
+      <div className='text left item'>Hamburgers</div>
       <div className='text left item'>Chips and Guac</div>
       <div className='text left item'>Watermelon</div>
       <div className='text left item'>Corn on the Cob</div>
