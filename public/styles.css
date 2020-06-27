@@ -154,12 +154,31 @@
     top: 17.5vh;
     position: absolute;
   }
+  
   .fourth .text {
+    width: 100%;
     text-align: center;
+    margin-top: 2%;
   }
   .fourth .title {
-    margin-top: -30%;
     font-size: xx-large;
+    border-bottom: 1px dashed black;
+    border-bottom-right-radius: 125%;
+    background-color: #dab17e;
+    border-bottom-left-radius: 125%;
+    margin: 0;
+  }
+  .fourth .subTitle {
+    margin-top: 10%;
+  }
+  .fourth .left {
+    text-align: left;
+  }
+  .fourth .item {
+    margin-left: 10%;
+  }
+  .fourth .wings {
+    margin-left: 15%;
   }
   .fifth {
     background-color: #333333;
